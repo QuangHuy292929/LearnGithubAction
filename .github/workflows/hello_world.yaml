@@ -8,5 +8,5 @@ jobs:
     steps: 
       - name: Hello world action
         run: echo "Hello world"
-      - run: echo "today = $(date +  %Y-%m-%d)" >> $GITHUB_ENV
+      - run: echo "today = $(date +  %y-%m-%d)" >> $GITHUB_ENV
       - run : echo today is $today
